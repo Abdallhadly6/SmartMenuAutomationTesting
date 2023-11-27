@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="SmartMenu">
+            <classes>
+                <class name="TestCases.Config"></class>
+                <class name="TestCases.LoginPageTest"></class>
+               <!--
+                <class name="TestCases.LoginPageTest"></class>
+                <class name="TestCases.HomePageTest"></class>
+                <class name="TestCases.AccountPageTest"></class>
+                <class name="TestCases.EntityProfilePageTest"></class>
+                <class name="TestCases.EntitySettingsPageTest"></class>
+                <class name="TestCases.EmployeePageTest"></class>
+                <class name="TestCases.TaxPageTest"></class>
+                 <class name="TestCases.TaxGroupPageTest"></class>
+                 <class name="TestCases.CouponPageTest"></class>
+                 <class name="TestCases.TagPageTest"></class>
+                 <class name="TestCases.CategoryPageTest"></class>
+                 <class name="TestCases.ItemPageTest"></class>
+                -->
+            </classes>
+    </test>
+</suite>
